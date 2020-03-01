@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    
+  <head> 
+    <title>Fetch API</title> 
+  </head> 
+  <body onload="mainFunction()"> 
+    <div> 
+      <h1>Fetch API GET REQUEST</h1> 
+      <h3>Fetching Users</h3> 
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for usernames..">
+
+      <!-- Table to display fetched user data -->
+      <table id="users"></table>	
+	  <a href="javascript:prevPage()" id="btn_prev">Prev</a>
+	  <a href="javascript:nextPage()" id="btn_next">Next</a>
+	  page: <span id="page"></span>	
+    </div> 
+       
+    <!-- Link JavaScript file -->
+    <script src="main.js"></script>
+	
+  </body> 
+</html> 
